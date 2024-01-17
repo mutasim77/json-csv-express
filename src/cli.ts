@@ -1,5 +1,5 @@
 import inquirer from 'inquirer';
-import jsonToCsv from './json-converter';
+import jsonToCsv from './converter';
 
 export default async function runConverter(): Promise<void> {
     const questions = [
