@@ -1,5 +1,5 @@
 {
-  "name": "json-converter",
+  "name": "json-csv-express",
   "version": "1.0.0",
   "description": "A JSON to CSV converter",
   "main": "dist/index.js",
