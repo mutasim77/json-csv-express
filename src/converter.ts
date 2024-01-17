@@ -13,7 +13,6 @@ interface DataObject {
 export default function jsonToCsv(jsonFilename: string, csvFilename: string): void {
     try {
         const jsonData: DataObject[] = JSON.parse(fs.readFileSync(jsonFilename, 'utf-8'));
-        console.log(jsonData);
 
         if (Array.isArray(jsonData) && jsonData.length > 0 && typeof jsonData[0] === 'object') {
             const header = Object.keys(jsonData[0]);
