@@ -1,16 +1,16 @@
 # JSON to CSV Converter 🗂️
-Transform JSON data into CSV format effortlessly with [json2csv-converter](). This lightweight command-line tool makes data interchange a breeze, providing a simple and intuitive interface for developers and data enthusiasts.
+Transform JSON data into CSV format effortlessly with [json2csv-converter](https://www.npmjs.com/package/json-csv-express). This lightweight command-line tool makes data interchange a breeze, providing a simple and intuitive interface for developers and data enthusiasts.
 
-### Features 🗞️
+## Features 🗞️
 - Convert JSON to CSV and vice versa with ease. 🔄📄
 - User-friendly CLI interface for quick and interactive data transformations. 💬
 - Seamless integration into your workflow with ```npm``` global installation. 🌐
 - Fast and efficient data processing to handle large datasets. 📊
 
-### Usage 📇
+## Usage 📇
 1. **Download the package:**
 ```bash
-npx json2csv-converter
+npx json-csv-express
 ```
 
 2. **Open the CLI tool 🛠️:**
@@ -29,3 +29,7 @@ npx json2csv-converter
 
 10. **Conversion complete ✅:**
     - Your CSV file (e.g., output.csv) is now ready. Retrieve it and use it as needed!
+
+## Demo ✨
+![JSON to CSV Demo GIF](https://github.com/mutasim77/json-csv-express/assets/96326525/2953f796-1965-424d-b508-b1f3585f78b8)
+
